@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px 10px 5px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+header a {
+    color: black;
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 0;
+}
+
+main {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+body {
+    background-image: url('https://concepto.de/wp-content/uploads/2021/04/etimologia-e1617394754683.jpg');
+    background-attachment: fixed;
+}
+
+.content_box a {
+    font-style: normal;
+    text-decoration: none;;
+    color: black;
+}
+.content_box {
+    margin: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(255, 255, 255, 0.6) 0px 8px 24px;
+    max-width: 500px;
+    width: 70%;
+    margin: auto;
+    background-color: white;
+}
+
+footer {
+    margin-bottom: 50px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
